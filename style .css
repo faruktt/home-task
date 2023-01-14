@@ -1,0 +1,54 @@
+header{
+    background-color: #f2dda4 !important;
+}
+.header-title  h1{
+    margin: 0 0 0 0!important;
+    width: 400px;
+    font-size: 54px;
+    color: #363958;
+  
+    
+}
+.header-title p{
+    width: 500px;
+}
+
+.header-title span{
+    color: #1b231a;
+}
+.bttn{
+    background-color: #46bc52 !important;
+    color: #FFFBF0 !important;
+}
+.card-footer h3{
+    color: #4681bc !important;
+}
+.banner-img img{
+    width: 400px;
+}
+.women-jecket{
+    color: #363958;
+}
+.footer-card{
+    border-radius: 5px;
+    box-shadow: rgba(92, 160, 228, 30.74) 0px 3px 8px;
+}
+.footer-text{
+    margin:0;
+    padding:0;
+}
+.footer-card img{
+    width: 100px;
+}
+@media screen and (max-width:600px){
+    .header-title p{
+        width: 390px;
+    } 
+    .footer-sec{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .footer-card{
+   text-align: center;
+    }
+}
